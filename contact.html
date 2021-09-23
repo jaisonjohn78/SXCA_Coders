@@ -1,0 +1,213 @@
+<!-- <?php
+    require("connection.inc.php");
+?> -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SXCA_Coders</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+        <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+</head>
+
+<body style="background-color: rgba(59, 130, 246, 0.2);">
+    <!-- <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03"
+                aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <a href="index.html">
+                <img style="margin-left: 40px;margin-top: 1px;margin-bottom: -15px;" width="199.93243243243242" height="150" loading="lazy"
+                    src="/logo.gif"
+                    class="header_logo__489xt" alt="logo"></a>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+                <ul class="navbar-nav " style="margin-left: auto;">
+                    <li class="nav-item" style="margin-right: 20px;">
+                        <a class="nav-link active" aria-current="page" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item" style="margin-right: 20px;">
+                        <a class="nav-link active" aria-current="page" href="portfolio.html">Tasks</a>
+                    </li>
+                    <li class="nav-item" style="margin-right: 20px;">
+                        <a class="nav-link active" aria-current="page" href="contact.html">Contact</a>
+                    </li>
+                    <li class="nav-item" style="margin-right: 20px;">
+                        <a class="nav-link active" id="tete" aria-current="page" href="https://docs.google.com/spreadsheets/d/1_5AgsaG6D9J6pWdS-Eifg3Wd6ozdxZRHOfv2dREKGZw/edit?usp=sharing" target="_blank">Leaderboard</a>
+                    </li>
+
+
+                </ul>
+            </div>
+        </div>    </nav> -->
+
+
+
+    <!-- <div style="background-color: rgba(134, 136, 151, 0.527); text-align: center;"><h4>Backend under Maintanance !</h4></div> -->
+    
+    
+    
+    <div class="page_page__3ikTy">
+
+        <div>
+            <picture class="page_cube__3faIx">
+                <source srcset="sprites/cube.webp" type="image/webp"><img alt="Cube Sprite" src="/sprites/cube.png"
+                    width="311" height="297">
+            </picture>
+        </div>
+        <div class="page_contentArea__1t05D">
+            <h1 class="page_title__1Zbmp" style="overflow-y: hidden;">Work With Us</h1>
+            <p class="page_description__1iSRo">Hit us up, sit back, relax and we'll get back to you within a day. </p>
+            <img width="604.4444444444445" height="340" loading="lazy"
+                src="https://cdn.sanity.io/images/kbz1tcxy/production/cabd45db23bad280fac567c24b3b5ceecfb0358e-1920x1080.png?h=340&amp;auto=format"
+                srcset="https://cdn.sanity.io/images/kbz1tcxy/production/cabd45db23bad280fac567c24b3b5ceecfb0358e-1920x1080.png?h=340&amp;auto=format&amp;dpr=1 1x, https://cdn.sanity.io/images/kbz1tcxy/production/cabd45db23bad280fac567c24b3b5ceecfb0358e-1920x1080.png?h=340&amp;auto=format&amp;dpr=2 2x, https://cdn.sanity.io/images/kbz1tcxy/production/cabd45db23bad280fac567c24b3b5ceecfb0358e-1920x1080.png?h=340&amp;auto=format&amp;dpr=3 3x"
+                class="page_image__3fDlq" alt="Otter Contact">
+
+            <div class="form1" style="background-color: white;padding: 40px;border-radius: 20px;">
+
+                <form  action="javascript:sendmail()" method="post">
+                    <div class="form-group">
+                        <label for="exampleInputEmail1">First name : </label>
+                        <input type="text" class="form-control" name="Name" id="Name" placeholder="FIRST NAME" style="width:60vw;margin-left:10px;margin-bottom:10px;" required>
+                    </div><br>
+                    <div class="form-group">
+                        <label for="exampleInputPassword1">Last name :</label>
+                        <input type="text" class="form-control" name="lastname" id="lastname" placeholder="LAST NAME" style="width:60vw;margin-left:10px;margin-bottom:10px;" required>
+                    </div><br>
+                    <div class="form-group">
+                        <label for="exampleInputPassword1">Roll no:</label>
+                        <input type="text" class="form-control" name="Sender" id="Sender" placeholder="ROLL NO" style="width:60vw;margin-left:10px;margin-bottom:10px;" required>
+                    </div><br>
+                    <div class="form-group">
+                        <label for="exampleInputPassword1">Whatsapp no :</label>
+                        <input type="number" class="form-control" name="Subject" id="Subject" placeholder="WHATSAPP NO" style="width:60vw;margin-left:10px;margin-bottom:10px;" required>
+                    </div><br>
+                    <span style="margin-top: -15px;width:50vw;font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;font-weight: 400;font-size: 20px;">Languages</span><br /><br />
+                        <input type="checkbox" class="checks" style="margin: 10px;margin-left:30px ;cursor:pointer;"value="HTML5"> HTML/CSS<br>
+                        <input type="checkbox" class="checks" style="margin: 10px;margin-left:30px ;cursor:pointer;" value="Javascript"> Javascript<br>
+                        <input type="checkbox" class="checks" style="margin: 10px;margin-left:30px ;cursor:pointer;" value="C/C++"> C/C++<br>
+                        <input type="checkbox" class="checks" style="margin: 10px;margin-left:30px ;cursor:pointer;" value="REACT"> React/React Native<br>
+                        <input type="checkbox" class="checks" style="margin: 10px;margin-left:30px ;cursor:pointer;" value="PYTHON"> PYTHON<br>
+                        <input type="checkbox" class="checks" style="margin: 10px;margin-left:30px ;cursor:pointer;" value="JAVA"> JAVA<br>
+                        <h2>Others</h2>
+                        <input type="checkbox" class="checks" style="margin: 10px;margin-left:30px ;cursor:pointer;" value="DataHandle"> DATA Handling<br>
+                        <input type="checkbox" class="checks" style="margin: 10px;margin-left:30px ;cursor:pointer;" value="contentWriter"> Content writer<br>
+                        <input type="checkbox" class="checks" style="margin: 10px;margin-left:30px ;cursor:pointer;" value="Designer"> Designing<br>
+
+                        <br>
+                    <label class="form-group">
+                        <span for="languages" style="width:50vw;font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;font-weight: 400;font-size: 20px;" >Any Question or Suggestions <i>(Explain in brief)</i> </span>
+                        <textarea  id="Message"  name="Message"  class="form-control"  style="width:700px;height:200px;margin-left:10px;margin-right:10px;margin-bottom:10px;"></textarea>
+                    </label><br>
+                    <div class="bb">
+                    <button type="submit" id="submit"  class="button">Submit</button>
+                    </div>
+                    <div id="response"></div>
+
+                </form>
+            </div>
+        </div>
+    </div>
+    </div>
+    <div>
+        <picture class="page_plane__1du3o" style="overflow-y: hidden;">
+            <source srcset="sprites/plane-rear.webp" type="image/webp"><img alt="Plane Sprite"
+                src="sprites/plane-rear.png" width="580" height="360">
+        </picture>
+    </div>
+    <div class="page_contactCards__2Xf3a page_contentArea__1t05D" style="align-items: center;">
+        <div class="page_contactCard__1aT3v" style="width:260px;">
+            <div class="page_icon__S1LXD"
+                style="background-color: rgb(69, 122, 245);margin-left: -10px;width:30px;height: 30px;overflow-y: hidden;">
+                <img width="22" style="margin-left: -10px;margin-top: -30px;" height="22" src="icons/mail.svg"
+                    alt="Get in touch">
+            </div>
+            <div>
+                <h3 style="overflow-y: hidden;">Email</h3>
+                <p><a href="mailto:sxcacoders@gmail.com">sxcacoders@gmail.com</a></p>
+            </div>
+        </div>
+        <div class="page_contactCard__1aT3v" style="width:260px;">
+            <div class="page_icon__S1LXD"
+                style="background-color: rgb(190, 30, 150);margin-left: -10px;width:30px;height: 30px;overflow-y: hidden;">
+                <img width="22" style="margin-left: -10px;margin-top: -30px;" height="22" src="icons/insta.svg"
+                    alt="Get in touch">
+            </div>
+            <div>
+                <h3 style="overflow-y: hidden;">Instagram</h3>
+                <p><a>SXCA_Coders</a></p>
+            </div>
+        </div>
+        <div class="page_contactCard__1aT3v" style="width:260px;"" >
+                <div class=" page_icon__S1LXD"
+            style="background-color: rgb(30, 190, 165);;margin-left: -10px;width:30px;height: 30px;overflow-y: hidden;">
+            <img width="22" style="margin-left: -10px;margin-top: -30px;" height="22" src="icons/phone.svg"
+                alt="Get in touch">
+        </div>
+        <div>
+            <h3 style="overflow-y: hidden;">Call</h3>
+            <p><a>+91 9016368472</a></p>
+        </div>
+    </div>
+    </div>
+
+</body>
+  <script
+  src="https://code.jquery.com/jquery-2.2.4.min.js"
+  integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+  crossorigin="anonymous"></script>
+<script src="https://smtpjs.com/v3/smtp.js"></script>
+ 
+<script>  
+     function sendmail(){
+    
+		var name = $('#Name').val();
+        var lastname = $('#lastname').val();
+		var roll_no = $('#Sender').val();
+		var Whatsapp_no = $('#Subject').val();
+        var other = $('#Message').val();
+        var checks = document.getElementsByClassName('checks');
+        var str = '';
+
+        for ( i = 0; i <= 4; i++) {
+            if ( checks[i].checked === true ) {
+                str += checks[i].value + " ";
+            }
+        }
+		var Body='First Name: '+name+'<br>Last Name: '+lastname+'<br>Roll no: '+roll_no+'<br>Whatsapp no: '+Whatsapp_no+'<br>Languages: '+str+'<br>Other: '+other+'.';
+			Email.send({
+                SecureToken:"fbf31702-bb7f-4a4e-9c1c-4ccf17ee777f",
+				To: 'sxcacoders@gmail.com',
+				From: "sxcacoders@gmail.com",
+				Subject: "New message on contact from "+name,
+				Body: Body
+			}).then(
+				message =>{
+					//console.log (message);
+					if(message=='OK'){
+					// alert('Your mail has been send. Thank you for connecting.');
+
+                    swal({
+        title: "You Request has been Sent !",
+        text: "Thank you for connecting with us.",
+        icon: "success",
+        button: "OK",
+      });
+					}
+					else{
+						console.error (message);
+                        swal("Oops!", "Something went wrong !", "error");	
+					}
+				}
+			);
+		}
+    </script>
+ </script>
+
+</html>

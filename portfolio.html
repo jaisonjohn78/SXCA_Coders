@@ -1,0 +1,315 @@
+<!-- <?php
+    require("connection.inc.php");
+?> -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SXCA_Coders</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/c393a1facdbf81b38c03.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+        <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light" >
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03"
+                aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <a href="index.html">
+                <img style="margin-left: 40px;margin-top: 1px;margin-bottom: -15px;" width="199.93243243243242" height="150" loading="lazy"
+                    src="/logo.gif"
+                    class="header_logo__489xt" alt="logo"></a>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+                <ul class="navbar-nav " style="margin-left: auto;">
+                    <li class="nav-item" style="margin-right: 20px;">
+                        <a class="nav-link active" aria-current="page" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item" style="margin-right: 20px;">
+                        <a class="nav-link active" aria-current="page" href="portfolio.html">Tasks</a>
+                    </li>
+                    <li class="nav-item" style="margin-right: 20px;">
+                        <a class="nav-link active" aria-current="page" href="contact.html">Contact</a>
+                    </li>
+                    <li class="nav-item" style="margin-right: 20px;">
+                        <a class="nav-link active" id="tete" aria-current="page" href="https://docs.google.com/spreadsheets/d/1_5AgsaG6D9J6pWdS-Eifg3Wd6ozdxZRHOfv2dREKGZw/edit?usp=sharing" target="_blank">Leaderboard</a>
+                    </li>
+
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="portfolio_page__8xyPL">
+        
+        <div class="portfolio_decor__2w5ks">
+            <picture class="portfolio_dartboard__EFqBu">
+                <source srcset="sprites/dartboard.webp" type="image/webp"><img alt="Paper Plane"
+                    src="sprites/dartboard.png" loading="eager">
+            </picture>
+            <picture class="portfolio_cube__2XOJR">
+                <source srcset="sprites/cube.webp" type="image/webp"><img alt="Paper Plane" src="sprites/cube.png"
+                    loading="eager">
+            </picture>
+        </div>
+        <div class="portfolio_hero__2MyYm">
+            <h1 style="overflow-y: hidden;">challenges / <br/> Tasks</h1>
+            <h3 style="overflow-y: hidden;">To see us in action, explore our challenges. Our internationally acclaimed, unique tasks lift us
+                above the crowd.
+            </h3>
+            <p>Note: Before working on any challenges make sure to register with us</p>
+            <h3>Enter your Roll number<br/> eg : 20BCA001</h3>
+            
+
+
+
+            <div class="search-container">
+                <input type="text" name="search" placeholder="Search..." class="search-input" id="roll_no">
+                
+                <button id="btnn" type="submit" value="submit" name="submit" onclick="roll_validate()">
+                    <i class="fas fa-search"></i>
+                </button>
+            </div>
+
+
+
+        
+
+
+        </div>
+        <div class="portfolio_filterSection__1WmGW" style="margin: -10px; margin-top: 60px;" >
+            <div class="portfolio_filters__1B3nr"><button type="button" class="portfolio_active__2LVZl">
+                    <div class="portfolio_selector__3FJc7"
+                        style="visibility: visible; transform-origin: 50% 50% 0px; opacity: 1; "></div>All
+                </button><button type="button" class="">Web</button><button type="button" class="">DSA</button><button type="button" class="">Moblie Dev</button><button type="button" class="">UI/UX
+                    </button></div>
+        </div>
+        <div class="portfolio_portfolioPosts__1lem8">
+            <div>
+                <!-- 11 -->
+                <div class="portfolio_portfolioPost__krshq"
+                    style="opacity: 1; visibility: visible; transform-origin: 50% 50% 0px;"><img width="3169"
+                        height="1920" loading="lazy"
+                        src="/temp/logop.png"
+                        class="portfolio_image__baK-x" alt="Interseed">
+                    <h2>UI/UX Design</h2>
+                    <h3>have a collaboration opportunity with us.</h3>
+                    <a href="/temp/Tasks/ui.html">Check out<span
+                        class="portfolio_rightArrow__PsjM9">→</span></a>
+                        <div class="portfolio_description__3l4sW">
+                            <p>Due : 10 OCT 2021</p>
+                        </div>
+
+                </div>
+<!-- 
+                 10 
+                <div class="portfolio_portfolioPost__krshq"
+                    style="opacity: 1; visibility: visible; transform-origin: 50% 50% 0px;"><img width="7157"
+                        height="5782" loading="lazy"
+                        src="/temp/starter.png"
+                        class="portfolio_image__baK-x" alt="Gush">
+                    <h2>DSA Challenge</h2>
+                    <h3>Brush up your coding skills</h3>
+                    <div class="portfolio_description__3l4sW">
+                        <p>Due : 22 OCT 2021</p>
+                    </div><a href="">Check Out<span
+                            class="portfolio_rightArrow__PsjM9">→</span></a>
+                </div> -->
+
+                <!-- 9 -->
+                <div class="portfolio_portfolioPost__krshq"
+                    style="opacity: 1; visibility: visible; transform-origin: 50% 50% 0px;"><img width="3169"
+                        height="1920" loading="lazy"
+                        src="/temp/55.png"
+                        class="portfolio_image__baK-x" alt="The Royal Singapore">
+                    <h2>CSS Challenge</h2>
+                    <h3>An Amazing challenge to boost your CSS skills.</h3>
+                    <div class="portfolio_description__3l4sW">
+                        <p>Due : 22 OCT 2021</p>
+                    </div><a href="/temp/Tasks/css1.html">Check out<span
+                            class="portfolio_rightArrow__PsjM9">→</span></a>
+                </div>
+                <!-- 8 -->
+                <!-- <div class="portfolio_portfolioPost__krshq"
+                    style="opacity: 1; visibility: visible; transform-origin: 50% 50% 0px;"><img width="2280"
+                        height="1600" loading="lazy"
+                        src="https://cdn.sanity.io/images/kbz1tcxy/production/eeacf973b3421d2973cd9e62e25434a457dd1f04-2280x1600.png?auto=format"
+                        srcset="https://cdn.sanity.io/images/kbz1tcxy/production/eeacf973b3421d2973cd9e62e25434a457dd1f04-2280x1600.png?auto=format&amp;dpr=1 1x, https://cdn.sanity.io/images/kbz1tcxy/production/eeacf973b3421d2973cd9e62e25434a457dd1f04-2280x1600.png?auto=format&amp;dpr=2 2x, https://cdn.sanity.io/images/kbz1tcxy/production/eeacf973b3421d2973cd9e62e25434a457dd1f04-2280x1600.png?auto=format&amp;dpr=3 3x"
+                        class="portfolio_image__baK-x" alt="Flex by Finaxar">
+                    <h2>Flex by Finaxar</h2>
+                    <h3>The simplest, fastest and cheapest way for startups and small businesses to manage payments and
+                        get working capital.</h3>
+                </div> -->
+
+                <!-- 7 -->
+                <!-- <div class="portfolio_portfolioPost__krshq"
+                    style="opacity: 1; visibility: visible; transform-origin: 50% 50% 0px;"><img width="1393"
+                        height="844" loading="lazy"
+                        src="https://cdn.sanity.io/images/kbz1tcxy/production/c99f2ad4837c95065ba4433273db0f746e5bc51b-1393x844.png?auto=format"
+                        srcset="https://cdn.sanity.io/images/kbz1tcxy/production/c99f2ad4837c95065ba4433273db0f746e5bc51b-1393x844.png?auto=format&amp;dpr=1 1x, https://cdn.sanity.io/images/kbz1tcxy/production/c99f2ad4837c95065ba4433273db0f746e5bc51b-1393x844.png?auto=format&amp;dpr=2 2x, https://cdn.sanity.io/images/kbz1tcxy/production/c99f2ad4837c95065ba4433273db0f746e5bc51b-1393x844.png?auto=format&amp;dpr=3 3x"
+                        class="portfolio_image__baK-x" alt="Falcon Solution">
+                    <h2>Falcon Solution</h2>
+                    <h3>Renovation Solutions</h3>
+                    <div class="portfolio_description__3l4sW">
+                        <p>Falcon Solutions is a construction start up specialising in interior revamps for residential,
+                            commercial and industrial properties.</p>
+                    </div><a href="https://falcon-solutions.webflow.io/">View Live Site<span
+                            class="portfolio_rightArrow__PsjM9">→</span></a>
+                </div> -->
+
+                <!-- 6 -->
+                <!-- <div class="portfolio_portfolioPost__krshq"
+                    style="opacity: 1; visibility: visible; transform-origin: 50% 50% 0px;"><img width="1407"
+                        height="844" loading="lazy"
+                        src="https://cdn.sanity.io/images/kbz1tcxy/production/890671ff6052061942e675b831b71f9bf57ef07a-1407x844.png?auto=format"
+                        srcset="https://cdn.sanity.io/images/kbz1tcxy/production/890671ff6052061942e675b831b71f9bf57ef07a-1407x844.png?auto=format&amp;dpr=1 1x, https://cdn.sanity.io/images/kbz1tcxy/production/890671ff6052061942e675b831b71f9bf57ef07a-1407x844.png?auto=format&amp;dpr=2 2x, https://cdn.sanity.io/images/kbz1tcxy/production/890671ff6052061942e675b831b71f9bf57ef07a-1407x844.png?auto=format&amp;dpr=3 3x"
+                        class="portfolio_image__baK-x" alt="Signal Ventures">
+                    <h2>Signal Ventures</h2>
+                    <h3>Signal Ventures is an investment firm specializing on technology in emerging cryptocurrencies.
+                    </h3>
+                    <div class="portfolio_description__3l4sW">
+                        <p>Signal Ventures is an investment firm specializing on technology in emerging
+                            cryptocurrencies.</p>
+                    </div><a href="https://signal.vc/">View Live Site<span
+                            class="portfolio_rightArrow__PsjM9">→</span></a>
+                </div> -->
+            </div>
+
+            <!-- Right  -->
+            <!-- 5 -->
+            <div class="portfolio_secondHalf__rfUUl">
+                <div class="portfolio_portfolioPost__krshq"
+                    style="opacity: 1; visibility: visible; transform-origin: 50% 50% 0px;"><img width="1712"
+                        height="1080" loading="lazy"
+                        src="/temp/hk.png"
+                        class="portfolio_image__baK-x" alt="Flex">
+                    <h2>Hacker Rank</h2>
+                    <h3>Come up with an Optimal solution . </h3>
+                    <div class="portfolio_description__3l4sW">
+                        <p>Due : 2 DEC 2021</p>
+                    </div><a href="#!" onclick="swal('Coming Soon', 'This Challenge is not yet updated','warning');">Check Out<span
+                            class="portfolio_rightArrow__PsjM9">→</span></a>
+                </div>
+
+                <!-- 4 -->
+                <div class="portfolio_portfolioPost__krshq"
+                    style="opacity: 1; visibility: visible; transform-origin: 50% 50% 0px;"><img width="3840"
+                        height="2160" loading="lazy"
+                        src="/temp/76.png"
+                        class="portfolio_image__baK-x" alt="Seven Heaven">
+                    <h2>CSS Challenge</h2>
+                    <h3>An Amazing challenge to boost your CSS skills.</h3>
+                    <div class="portfolio_description__3l4sW">
+                        <p>Due : 22 OCT 2021.</p><a href="/temp/Tasks/css2.html">Check out<span class="portfolio_rightArrow__PsjM9">→</span></a>
+                </div><br/><br/>
+
+                <!-- 3 -->
+                <!-- <div class="portfolio_portfolioPost__krshq"
+                    style="opacity: 1; visibility: visible; transform-origin: 50% 50% 0px;"><img width="1140"
+                        height="800" loading="lazy"
+                        src="/temp/76.png"
+                        class="portfolio_image__baK-x" alt="BaoBaoHomeTutor">
+                    <h2>CSS Challenge</h2>
+                    <h3>An Amazing challenge to boost your CSS skills.</h3>
+                    <div class="portfolio_description__3l4sW">
+                        <p>Due : 21 OCT 2021.</p>
+                    </div><a href="">Check now<span
+                            class="portfolio_rightArrow__PsjM9">→</span></a>
+                </div> -->
+
+                <!-- 2 -->
+                <!-- <div class="portfolio_portfolioPost__krshq"
+                    style="opacity: 1; visibility: visible; transform-origin: 50% 50% 0px;"><img width="1600"
+                        height="1200" loading="lazy"
+                        src="https://cdn.sanity.io/images/kbz1tcxy/production/0495b3fbce76b1537788b65b4c3d6fcef099305f-1600x1200.png?auto=format"
+                        srcset="https://cdn.sanity.io/images/kbz1tcxy/production/0495b3fbce76b1537788b65b4c3d6fcef099305f-1600x1200.png?auto=format&amp;dpr=1 1x, https://cdn.sanity.io/images/kbz1tcxy/production/0495b3fbce76b1537788b65b4c3d6fcef099305f-1600x1200.png?auto=format&amp;dpr=2 2x, https://cdn.sanity.io/images/kbz1tcxy/production/0495b3fbce76b1537788b65b4c3d6fcef099305f-1600x1200.png?auto=format&amp;dpr=3 3x"
+                        class="portfolio_image__baK-x" alt="YRA Solution">
+                    <h2>YRA Solution</h2>
+                    <h3>Working from heights.</h3><a href="https://yrasolution.com/">View Live Site<span
+                            class="portfolio_rightArrow__PsjM9">→</span></a>
+                </div> -->
+
+                <!-- 1 -->
+                <!-- <div class="portfolio_portfolioPost__krshq"
+                    style="opacity: 1; visibility: visible; transform-origin: 50% 50% 0px;"><img width="1600"
+                        height="1200" loading="lazy"
+                        src="https://cdn.sanity.io/images/kbz1tcxy/production/9f07adcc6235eb683aa5fa593aeb516412624106-1600x1200.png?auto=format"
+                        srcset="https://cdn.sanity.io/images/kbz1tcxy/production/9f07adcc6235eb683aa5fa593aeb516412624106-1600x1200.png?auto=format&amp;dpr=1 1x, https://cdn.sanity.io/images/kbz1tcxy/production/9f07adcc6235eb683aa5fa593aeb516412624106-1600x1200.png?auto=format&amp;dpr=2 2x, https://cdn.sanity.io/images/kbz1tcxy/production/9f07adcc6235eb683aa5fa593aeb516412624106-1600x1200.png?auto=format&amp;dpr=3 3x"
+                        class="portfolio_image__baK-x" alt="Otterate">
+                    <h2>Otterate</h2>
+                    <h3>A rating social media site for everyone. </h3>
+                </div> -->
+
+
+            </div>
+        </div>
+    </div>
+    <div class="contact_contact__1zi91">
+                <div class="cta_contact__yrJ62">
+                    <picture class="cta_chat__3e8RQ">
+                        <source srcSet="sprites/chat.webp" type="image/webp" /><img alt="Chat icon"
+                            src="sprites/chat.png" loading="lazy" width="278" height="172" />
+                    </picture>
+                    <picture class="cta_cloud__3cHMo">
+                        <source srcSet="sprites/cloud.webp" type="image/webp" /><img alt="Cloud icon"
+                            src="sprites/cloud.png" loading="lazy" width="202" height="149" />
+                    </picture>
+                    <div class="cta_background__Mx_uR">
+                        <picture class="cta_bellIcon__1a3tN">
+                            <source srcSet="sprites/bell.webp" type="image/webp" /><img alt="Bell"
+                                src="sprites/bell.png" loading="lazy" width="102" height="123" />
+                        </picture>
+                        <svg width="100" height="100" viewBox="0 0 50 50" xmlns="http://www.w3.org/2000/svg"
+                            class="cta_bigBgCircle__2GMG2">
+                             <circle cx="25" cy="25" r="25"></circle> 
+                        </svg>
+                        <svg width="100" height="100" viewBox="0 0 50 50" xmlns="http://www.w3.org/2000/svg"
+                            class="cta_redCircle__3ojUY">
+                            <circle cx="25" cy="25" r="25" ></circle>
+                        </svg><svg width="100" height="100" viewBox="0 0 50 50" xmlns="http://www.w3.org/2000/svg"
+                            class="cta_yellowCircle2__RlQMl">
+                            <circle cx="25" cy="25" r="25" ></circle>
+                        </svg><svg width="100" height="100" viewBox="0 0 50 50" xmlns="http://www.w3.org/2000/svg"
+                            class="cta_whiteCircle__UsoRb">
+                            <circle cx="25" cy="25" r="25" ></circle>
+                        </svg>
+                    </div>
+                    <div class="cta_contents__2ml5R" style="overflow-y: hidden; ">
+                        <h3 class="cta_title__itnd7" style="overflow-y: hidden;">Ready to go? Let&#x27;s chat!</h3>
+                        <h4 class="cta_subtitle__1QxU1" style="overflow-y: hidden;">Contact us to get started on your
+                            new digital journey. </h4>
+                        <div class="cta_actions__3jRta" style="align-items: center;">
+                        <button type="button" class="cta_contactButton__1eg83 cta_button__3MjQ3"
+                                style="background-color: rgb(54, 212, 54);width:160px; text-align: center;"><img src="icons/mail.svg"
+                                    alt="Mail" />Contact</button>
+                            <button type="button" class="cta_whatsappButton__1hT0X cta_button__3MjQ3" style="width:160px; background-color: rgb(248, 47, 141); text-align: center;"><img src="icons/insta.svg"
+                                    alt="Mail" />Instagram</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </div>
+    <script src="/js/e93aoe2b8623.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"
+        integrity="sha384-W8fXfP3gkOKtndU4JGtKDvXbO53Wy8SZCQHczT5FMiiqmQfUpWbYdTil/SxwZgAN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js"
+        integrity="sha384-skAcpIdS7UcVUC05LJ9Dxay8AXcDYfBJqt1CJ85S/CFujBsIzCIv+l9liuYLaMQ/"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
