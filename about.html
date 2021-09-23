@@ -49,7 +49,7 @@
                                 <a class="nav-link active" aria-current="page" href="portfolio.html">Tasks</a>
                             </li>
                             <li class="nav-item" style="margin-right: 20px;">
-                                <a class="nav-link active" aria-current="page" href="contact.html">Contact</a>
+                                <a class="nav-link active" aria-current="page" href="contact.html">Work</a>
                             </li>
                             <li class="nav-item" style="margin-right: 20px;">
                                 <a class="nav-link active" id="tete" aria-current="page" href="https://docs.google.com/spreadsheets/d/1_5AgsaG6D9J6pWdS-Eifg3Wd6ozdxZRHOfv2dREKGZw/edit?usp=sharing" target="_blank">Leaderboard</a>
@@ -112,7 +112,7 @@
                     <picture
                                 style="transition: transform 0.225s cubic-bezier(0.34, 1.56, 0.64, 1) 1s;">
                                 <source srcset="sprites/f1_small.webp" type="image/webp"><img
-                                    src="sprites/f1_small.png" alt="Racing Car" width="615" height="369">
+                                    src="sprites/f1_small.png" alt="Racing Car">
                             </picture>
                 </div>
 
@@ -150,7 +150,7 @@
                                         class="about_memberImageTwo__3PmqV about_hover__39VBF" alt="Hardik"
                                         style="background-color: rgb(255, 237, 220);"></div>
                             </div>
-                            <a href="https://www.instagram.com/hardik_vekariya_1111/" style="text-decoration: none; z-index: 1000;"></a><h3 class="about_name__F0lqa" style="overflow-y: hidden;">Hardik</h3></a>
+                            <a href="https://www.instagram.com/hardik_vekariya_1111" style="text-decoration: none; z-index: 1000;"><h3 class="about_name__F0lqa" style="overflow-y: hidden;">Hardik</h3></a>
                             <h4 class="about_role__3HZDH" style="overflow-y: hidden;">Web Dev Lead</h4>
                             <p>Click me</p>
 
@@ -332,10 +332,10 @@
                         <h4 class="cta_subtitle__1QxU1" style="overflow-y: hidden;">Contact us to get started on your
                             new digital journey. </h4>
                         <div class="cta_actions__3jRta" style="align-items: center;">
-                        <button type="button" class="cta_contactButton__1eg83 cta_button__3MjQ3"
+                        <button onclick="location.href = '/contact.html'" type="button" class="cta_contactButton__1eg83 cta_button__3MjQ3"
                                 style="background-color: rgb(54, 212, 54);width:160px; text-align: center;"><img src="icons/mail.svg"
                                     alt="Mail" />Contact</button>
-                            <button type="button" class="cta_whatsappButton__1hT0X cta_button__3MjQ3" style="width:160px; background-color: rgb(248, 47, 141); text-align: center;"><img src="icons/insta.svg"
+                            <button onclick="location.href = 'https://instagram.com/sxca_coders?utm_medium=copy_link'" type="button" class="cta_whatsappButton__1hT0X cta_button__3MjQ3" style="width:160px; background-color: rgb(248, 47, 141); text-align: center;"><img src="icons/insta.svg"
                                     alt="Mail" />Instagram</button>
                         </div>
                     </div>
@@ -345,23 +345,7 @@
         </div>
     </div>
 
-    <script>
-
-        var current = $(window).scrollTop();
-            var total = $(window).height() - current;
-            var ele = $(".racez");
-            var currPosition = ele.position().left + 360;
-            var trackLength = 240;
-        $(window).scroll(function (event) {
-            current = $(window).scrollTop();
-            console.log({total:total,current:current});
-            console.log(current/total * 100);
-            var newPosition = trackLength * (current/total)
-            ele.css({right:currPosition+newPosition+'px'});
-        });
-
-    </script>
-
+   
 
 
 

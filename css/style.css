@@ -1236,6 +1236,15 @@ text-align: center;
     animation: about-racingcar_rumble__1PezM .1s infinite alternate
 }
 
+
+@media screen and (max-width:500px) {
+.racez {
+    z-index: -1;
+
+}
+
+}
+
 @-webkit-keyframes about-racingcar_rumble__1PezM {
     0% {
         transform: translate(1px, -1px)
@@ -1832,7 +1841,7 @@ text-align: center;
     }
     to {
         filter: brightness(1.05) drop-shadow(0 0 16px rgba(230, 140, 140, .3));
-        transform: translateY(10px)
+        transform: translateY(-25px)
     }
 }
 
@@ -1842,7 +1851,7 @@ text-align: center;
     }
     to {
         filter: brightness(1.05) drop-shadow(0 0 16px rgba(230, 140, 140, .3));
-        transform: translateY(10px)
+        transform: translateY(-25px)
     }
 }
 
