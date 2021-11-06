@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-06T04:08:56.993Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="aS7E3IKWnniBQux8OZhX" version="15.5.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-06T04:12:15.178Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="xCAqqlIZQGCfyvSRavYx" version="15.5.9" type="github">
   <diagram id="DUeWEWVyYwB7FjINVutL" name="Page-1">
     <mxGraphModel dx="1150" dy="650" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#ffffff" math="0" shadow="0">
       <root>
@@ -44,11 +44,14 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="GcSAzqZHsp-fQSuAQkc1-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FFFFFF;" edge="1" parent="1" source="GcSAzqZHsp-fQSuAQkc1-15" target="GcSAzqZHsp-fQSuAQkc1-30">
+        <mxCell id="GcSAzqZHsp-fQSuAQkc1-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FFFFFF;dashed=1;dashPattern=1 4;" edge="1" parent="1" source="GcSAzqZHsp-fQSuAQkc1-15" target="GcSAzqZHsp-fQSuAQkc1-30">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="GcSAzqZHsp-fQSuAQkc1-15" value="User Dashboard" style="swimlane;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="580" y="270" width="220" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="GcSAzqZHsp-fQSuAQkc1-64" value="Session ID" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=18;fontColor=#000000;" vertex="1" parent="GcSAzqZHsp-fQSuAQkc1-15">
+          <mxGeometry x="60" y="140" width="100" height="30" as="geometry" />
         </mxCell>
         <mxCell id="GcSAzqZHsp-fQSuAQkc1-21" value="" style="shape=waypoint;size=6;pointerEvents=1;points=[];fillColor=#dae8fc;resizable=0;rotatable=0;perimeter=centerPerimeter;snapToPoint=1;fontStyle=1;strokeColor=#6c8ebf;startSize=23;" vertex="1" parent="1">
           <mxGeometry x="510" y="95" width="40" height="40" as="geometry" />
@@ -69,6 +72,9 @@
         </mxCell>
         <mxCell id="GcSAzqZHsp-fQSuAQkc1-58" value="" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.security.lock_protected;fillColor=#007FFF;fontSize=18;fontColor=#000000;" vertex="1" parent="GcSAzqZHsp-fQSuAQkc1-24">
           <mxGeometry y="-16" width="25" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="GcSAzqZHsp-fQSuAQkc1-63" value="Session ID" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=18;fontColor=#000000;" vertex="1" parent="GcSAzqZHsp-fQSuAQkc1-24">
+          <mxGeometry x="60" y="145" width="100" height="30" as="geometry" />
         </mxCell>
         <mxCell id="GcSAzqZHsp-fQSuAQkc1-26" value="" style="shape=waypoint;size=6;pointerEvents=1;points=[];fillColor=#dae8fc;resizable=0;rotatable=0;perimeter=centerPerimeter;snapToPoint=1;fontStyle=1;strokeColor=#6c8ebf;startSize=23;" vertex="1" parent="1">
           <mxGeometry x="210" y="100" width="40" height="40" as="geometry" />
