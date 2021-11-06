@@ -1,1 +1,75 @@
-<mxfile host="app.diagrams.net" modified="2021-11-06T02:44:15.014Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" version="15.5.9" etag="CrBmTVRzaEUKqBa2dpWI" type="github"><diagram id="VqQgmqMT4C2GOMJGbfO0">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-11-06T03:35:01.796Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="3LiZmJ77984O1y5cTQkP" version="15.5.9" type="github">
+  <diagram id="VqQgmqMT4C2GOMJGbfO0" name="Page-1">
+    <mxGraphModel dx="812" dy="459" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#FFFFFF" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="EArTdD4BKyUFVbThEvfK-1" value="https://sxcacoders.pages.dev/" style="swimlane;fillColor=#dae8fc;strokeColor=#6c8ebf;labelBackgroundColor=none;rounded=1;glass=0;sketch=0;shadow=0;arcSize=50;startSize=30;" vertex="1" parent="1">
+          <mxGeometry x="310" y="40" width="310" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="EArTdD4BKyUFVbThEvfK-2" value="&lt;b&gt;&lt;font style=&quot;font-size: 15px&quot;&gt;Cloudflare&lt;br&gt;&lt;/font&gt;&lt;/b&gt;" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="EArTdD4BKyUFVbThEvfK-1">
+          <mxGeometry x="-80" y="140" width="207.5" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="EArTdD4BKyUFVbThEvfK-3" value="&lt;font style=&quot;font-size: 10px&quot;&gt;Login / Register&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="EArTdD4BKyUFVbThEvfK-1">
+          <mxGeometry x="220" y="30" width="85" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="EArTdD4BKyUFVbThEvfK-9" value="Front-End Deployed in &lt;br&gt;Cloudflare pages" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=17;" vertex="1" parent="EArTdD4BKyUFVbThEvfK-1">
+          <mxGeometry x="58.75" y="90" width="190" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="EArTdD4BKyUFVbThEvfK-10" value="" style="shape=waypoint;size=6;pointerEvents=1;points=[];fillColor=#ffffff;resizable=0;rotatable=0;perimeter=centerPerimeter;snapToPoint=1;fontSize=10;" vertex="1" parent="EArTdD4BKyUFVbThEvfK-1">
+          <mxGeometry x="3.75" y="240" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="EArTdD4BKyUFVbThEvfK-21" value="&lt;font style=&quot;font-size: 13px&quot;&gt;Home&amp;nbsp; About&amp;nbsp; Task&amp;nbsp; Work&amp;nbsp;&amp;nbsp;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=18;fontColor=#000000;" vertex="1" parent="EArTdD4BKyUFVbThEvfK-1">
+          <mxGeometry x="50" y="25" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="EArTdD4BKyUFVbThEvfK-4" value="" style="shape=waypoint;size=6;pointerEvents=1;points=[];fillColor=#e1d5e7;resizable=0;rotatable=0;perimeter=centerPerimeter;snapToPoint=1;rounded=1;fontSize=15;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="660" y="310" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="EArTdD4BKyUFVbThEvfK-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=10;" edge="1" parent="1" source="EArTdD4BKyUFVbThEvfK-3" target="EArTdD4BKyUFVbThEvfK-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EArTdD4BKyUFVbThEvfK-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=17;startArrow=classic;startFill=1;" edge="1" parent="1" source="EArTdD4BKyUFVbThEvfK-6" target="EArTdD4BKyUFVbThEvfK-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EArTdD4BKyUFVbThEvfK-6" value="&lt;font style=&quot;font-size: 17px&quot;&gt;&lt;b&gt;GitHub&lt;/b&gt;&lt;/font&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="140" y="330" width="90" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="EArTdD4BKyUFVbThEvfK-7" value="" style="shape=waypoint;size=6;pointerEvents=1;points=[];fillColor=#fff2cc;resizable=0;rotatable=0;perimeter=centerPerimeter;snapToPoint=1;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="130" y="310" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="EArTdD4BKyUFVbThEvfK-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=10;startArrow=classic;startFill=1;" edge="1" parent="1" target="EArTdD4BKyUFVbThEvfK-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="250" y="240" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EArTdD4BKyUFVbThEvfK-12" value="&lt;font style=&quot;font-size: 18px&quot;&gt;&lt;a href=&quot;https://github.com/jaisonjohn78/SXCA_Coders&quot;&gt;https://github.com/jaisonjohn78/SXCA_Coders&lt;/a&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=17;" vertex="1" parent="1">
+          <mxGeometry x="20" y="450" width="390" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="EArTdD4BKyUFVbThEvfK-15" value="Login / Register" style="swimlane;startSize=20;horizontal=1;childLayout=treeLayout;horizontalTree=0;resizable=0;containerType=tree;fontSize=18;fillColor=#D82768;strokeColor=#A50040;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="510" y="340" width="280" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="EArTdD4BKyUFVbThEvfK-16" value="Root" style="whiteSpace=wrap;html=1;fontSize=18;fontColor=#000000;" vertex="1" parent="EArTdD4BKyUFVbThEvfK-15">
+          <mxGeometry x="90" y="40" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="EArTdD4BKyUFVbThEvfK-17" value="Admin" style="whiteSpace=wrap;html=1;fontSize=18;fontColor=#000000;" vertex="1" parent="EArTdD4BKyUFVbThEvfK-15">
+          <mxGeometry x="20" y="130" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="EArTdD4BKyUFVbThEvfK-18" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;html=1;rounded=0;fontSize=18;fontColor=#000000;startArrow=classic;startFill=1;" edge="1" parent="EArTdD4BKyUFVbThEvfK-15" source="EArTdD4BKyUFVbThEvfK-16" target="EArTdD4BKyUFVbThEvfK-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EArTdD4BKyUFVbThEvfK-19" value="User" style="whiteSpace=wrap;html=1;fontSize=18;fontColor=#000000;" vertex="1" parent="EArTdD4BKyUFVbThEvfK-15">
+          <mxGeometry x="160" y="130" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="EArTdD4BKyUFVbThEvfK-20" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;html=1;rounded=0;fontSize=18;fontColor=#000000;startArrow=classic;startFill=1;" edge="1" parent="EArTdD4BKyUFVbThEvfK-15" source="EArTdD4BKyUFVbThEvfK-16" target="EArTdD4BKyUFVbThEvfK-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EArTdD4BKyUFVbThEvfK-22" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://sxcacoders.pages.dev/logo1.png;imageBorder=default;perimeterSpacing=108;strokeWidth=3;" vertex="1" parent="1">
+          <mxGeometry x="369" y="1070" width="90" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="EArTdD4BKyUFVbThEvfK-25" value="&lt;font style=&quot;font-size: 21px&quot;&gt;&lt;a href=&quot;http://sxcacoderz.atwebpages.com/&quot;&gt;http://sxcacoderz.atwebpages.com&lt;/a&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=13;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="470" y="550" width="340" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
